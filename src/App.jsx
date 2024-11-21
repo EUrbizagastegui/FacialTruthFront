@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
-
 import './App.css'
 import Home from './components/home/home';
 import Register from './components/register/register';
