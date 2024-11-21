@@ -1,0 +1,56 @@
+.login-background {
+    background-image: url('https://cdn.pixabay.com/photo/2023/08/14/15/42/milkyway-8190232_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-card-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+#demo-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.login-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.login-label {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.p-inputtext-lg {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+.p-button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
