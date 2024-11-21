@@ -7,8 +7,8 @@ import { Button } from 'primereact/button';
 import { Dialog } from 'primereact/dialog';
 import 'primeflex/primeflex.css';
 import 'primeicons/primeicons.css';
-import './Login.css'; // Importa el archivo CSS específico para Login
-import LoginAnimation from './LoginAnimation'; // Importa el componente de animación
+import './Login.css';
+import LoginAnimation from './LoginAnimation'; 
 
 const Login = () => {
     const [username, setUsername] = useState('');
@@ -18,7 +18,7 @@ const Login = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Aquí puedes manejar el envío del formulario
+        // Manejar el envío del formulario
         if (username === 'admin' && password === 'admin') {
             navigate('/');
         } else {
