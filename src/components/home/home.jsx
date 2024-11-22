@@ -1,12 +1,15 @@
 import './home.css'
 import { Button } from 'primereact/button';
 import { useNavigate } from 'react-router-dom';
+import LoginAnimation from '../login/LoginAnimation';
 
 const Home = () => {
     const navigate = useNavigate();
 
     return (
-        <div>
+        <div id="large-header">
+            <canvas id="demo-canvas"></canvas>
+            <LoginAnimation /> 
             <div className="home">
                 <h1 style={{ color: "white" }}>¡Bienvenido a FacialTruth!</h1>
                 <img src="https://i.ibb.co/Z2PwKTJ/facialtruth.png" alt="" />
